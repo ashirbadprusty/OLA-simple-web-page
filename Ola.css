@@ -1,0 +1,92 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+nav{
+    /* margin-top: -15px; */
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    background-color: black;
+}
+ol{
+    display: flex;
+    margin-left: 50px;
+    list-style-type: none;
+    cursor: pointer;
+}
+li{
+    margin-top: 12px;
+    padding-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.last_word{
+    margin-top: 20px;
+}
+.first_word{
+    margin-left: -40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.book{
+    margin-left: 450px;
+    margin-top: 6px;
+    font-size: 13px;
+    background-color: rgb(65, 64, 64);
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.test{
+    margin-left: 20px;
+    margin-top: 4px;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+img{
+    height: 375px;
+    width: 375px;
+}
+#frame{
+    display: flex;
+}
+section{
+    margin-left: 50px;
+}
+h2{
+    margin-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    margin-left: 85px;
+    margin-top: -25px;
+    height: 35px;
+    width: 250px;
+    border-style: none;
+    border-radius: 10vh;
+    border: 2px solid #008015ad;
+}
+#button1, #button2, #button3{
+    margin-top: 10px;
+    margin-left: 145px;
+    height: 35px;
+    width: 120px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    font-family: Phantomsans, sans-serif;
+    color: #fff;
+    border:none;
+    border-radius:8px;
+}
+
